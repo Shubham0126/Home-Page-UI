@@ -8,7 +8,11 @@ body {
     color: #5a5a5a;
   }
   
-  
+  /* NavBar */
+
+  .nav-item{
+    margin-right: 30px;
+  }
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -25,14 +29,14 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 40rem;
   }
   
    /* CONTACT FORM
   -------------------------------------------------- */
 .contact-form{
   padding: 10px;
-  top: 65px;
+  top: 150px;
   background-color: aliceblue;
   left: 200px;
   z-index: 3;
@@ -81,6 +85,10 @@ body {
     text-decoration: none;
   }
 
+  /* Footer */
+/* .link{
+  text-align: center;
+} */
   /* home-carousel */
   
   
@@ -106,10 +114,16 @@ body {
     }
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 1200px){
     .contact-form{
-      top: 10%;
-      left: 0;
+      position: static;
       width: 100%;
+    }
+  }
+
+  @media (max-width: 1500px){
+    .contact-form{
+      left:60px;
+      top: 80px;
     }
   }
