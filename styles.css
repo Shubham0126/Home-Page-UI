@@ -87,9 +87,37 @@ body {
 
 
 
-  /* home-carousel */
-  
-  
+  /* About-Page & Contact-Page */
+  .about-container, .contact-container{
+    display: flex;
+    height: 40rem;
+    background-image: url("images/5.png");
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .about-heading , .contact-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 4.5rem;
+  }
+  .about-text{
+    color: white;
+    font-size: 1.4rem;
+  }
+  .content{
+    text-align: center;
+  }
+
+ .box-details{
+  font-size: 1.3rem;
+  color: white;
+ }
+  .detail-type{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+  }
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
