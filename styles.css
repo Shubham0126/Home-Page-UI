@@ -88,36 +88,14 @@ body {
 
 
   /* About-Page & Contact-Page */
-  .about-container, .contact-container{
-    display: flex;
-    height: 40rem;
-    background-image: url("images/5.png");
-    justify-content: center;
-    align-items: center;
-    
+  
+  .heading h1{
+    font-size: 3.4rem;
   }
-  .about-heading , .contact-heading{
-    color: white;
-    font-weight: bold;
-    font-size: 4.5rem;
-  }
-  .about-text{
-    color: white;
-    font-size: 1.4rem;
-  }
-  .content{
-    text-align: center;
-  }
-
- .box-details{
-  font-size: 1.3rem;
-  color: white;
+ .contact h1{
+  font-size: 3.4rem;
  }
-  .detail-type{
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: white;
-  }
+ 
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
