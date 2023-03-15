@@ -95,6 +95,9 @@ body {
  .contact h1{
   font-size: 3.4rem;
  }
+ .link{
+  color: black;
+ }
  
   /* RESPONSIVE CSS
   -------------------------------------------------- */
