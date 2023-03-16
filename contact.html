@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
@@ -81,7 +81,7 @@
     </nav>
   </header>
 
-<div class="container my-5">
+<div class="container my-3">
     <div class="row text-center contact ">
         <h1>Contact Us</h1>
     </div>
@@ -100,6 +100,24 @@
                       <input type="email" class="form-control" placeholder="Email">
                     </div>
                   </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="" class="form-label">Type</label>
+                      <select name="" class="form-select" id="">
+                        <option value="1">Hotels</option>
+                        <option value="2">Flights</option>
+                        <option value="3">Packages</option>
+                        <option value="4">Collabration</option>
+                        <option value="5">Other</option>
+                      </select>
+                  </div>
+
+                  <div class="col">
+                    <label for="" class="form-label">Other(optional)</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  </div>
                 <div class="row mb-2">
                   <div class="col">
                     <label for="" class="form-label">Message</label>
@@ -107,7 +125,7 @@
                   </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col">
+                    <div class="col-6 d-grid mx-auto">
                         <button type="submit" class="btn btn-outline-dark my-3">Send Message</button></div>
                 </div>
                  
@@ -116,12 +134,17 @@
 
     </div>
     
+    <hr class="featurette-divider">
+
 <div class="container">
+  <div class="row text-center">
+    <h1>Contact Links</h1>
+  </div>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-         <a class="nav-link link" href="https://goo.gl/maps/h7sX7XBfFmqybrAW9">
-          <div class="card h-100">
-            <div class="card-body">
+        <div class="col ">
+         <a class="nav-link " data-toggle="tooltip" data-placement="top" title="Address" href="https://goo.gl/maps/h7sX7XBfFmqybrAW9">
+          <div class="card h-100 contact-link">
+            <div class="card-body text-white">
               <h5 class="card-title">Contact Address</h5>
               <p class="card-text"> 302 Royal Place, England</p>
             </div>
@@ -130,9 +153,9 @@
           </div>
         </div>
         <div class="col">
-          <a class="nav-link link" href="tel:+1-866-901-7017">
-            <div class="card h-100">
-              <div class="card-body">
+          <a class="nav-link " data-toggle="tooltip" data-placement="top" title="Contact" href="tel:+1-866-901-7017">
+            <div class="card h-100 contact-link">
+              <div class="card-body text-white">
                 <h5 class="card-title">Contact Number</h5>
                 <p class="card-text"> +1 866 901 7017</p>
               </div>
@@ -141,9 +164,9 @@
           </div>
         </div>
         <div class="col">
-          <a class="nav-link link" href="mailto:123xyz@gmail.com">
-            <div class="card h-100">
-              <div class="card-body">
+          <a class="nav-link " data-toggle="tooltip" data-placement="top" title="E-Mail" href="mailto:123xyz@gmail.com">
+            <div class="card h-100 contact-link ">
+              <div class="card-body text-white">
                 <h5 class="card-title">Support</h5>
                 <p class="card-text">support@flyavionic.com</p>
               </div>
