@@ -111,36 +111,17 @@ body {
  .terms-bg{
   background-image: url('images/terms.png');
   background-repeat: no-repeat;
- }
- .terms{
-  overflow-y: auto;
-  height: 80vh;
   color: white;
-  -ms-overflow-style: none;
-  /* for Internet Explorer, Edge */
-  scrollbar-width: none;
-   /* for Firefox */
  }
- .terms::-webkit-scrollbar {
-  display: none;
-  /* for Chrome, Safari, and Opera */
-}
+
 
 /* Privacy Policy */
 .privacy-bg{
   background-image: url('images/privacy.png');
   background-repeat: no-repeat;
-}
-.privacy{
-  overflow-y: auto;
-  height: 80vh;
   color: white;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
-.privacy::-webkit-scrollbar{
-  display: none;
-}
+
 
   /* RESPONSIVE CSS
   -------------------------------------------------- */
