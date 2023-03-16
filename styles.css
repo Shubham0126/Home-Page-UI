@@ -97,28 +97,28 @@ body {
  }
  .link{
   color: black;
+  
+ }
+
+ .contact-link{
+  background-color: rgb(27, 25, 25);
+ }
+ .contact-link:hover{
+  background-color: rgb(13, 13, 13);
  }
  
  /* FAQs */
- .faq-bg{
-  background-image: url('images/France.png');
- }
- .faq-heading{
-  color: white;
- }
+ 
+ 
 
  /* Terms & Condition */
  .terms-bg{
-  background-image: url('images/terms.png');
-  background-repeat: no-repeat;
   color: white;
  }
 
 
 /* Privacy Policy */
 .privacy-bg{
-  background-image: url('images/privacy.png');
-  background-repeat: no-repeat;
   color: white;
 }
 
